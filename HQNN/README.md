@@ -16,7 +16,7 @@ This notebook implements a **Hybrid Quantum Neural Network (HQNN)** to perform d
 
 ### 3. Quantum Circuit Definition
 - Constructs a parameterized quantum circuit (PQC) using Qiskit or PennyLane.
-- Encodes classical features into quantum states via data encoding (e.g., angle encoding).
+- Encodes classical features into quantum states via data encoding (angle encoding).
 - Uses parameterized gates and measurements to allow training via gradient-based optimization.
 
 ### 4. Hybrid Model Construction
@@ -25,7 +25,7 @@ This notebook implements a **Hybrid Quantum Neural Network (HQNN)** to perform d
 
 ### 5. Training
 - Trains the hybrid model using binary or multiclass cross-entropy loss.
-- Optimizes both quantum and classical parameters using an optimizer such as Adam or SGD.
+- Optimizes both quantum and classical parameters using an the COPYBLA optimizer.
 - Tracks loss and accuracy over epochs.
 
 ### 6. Evaluation
